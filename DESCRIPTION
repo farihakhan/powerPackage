@@ -18,4 +18,4 @@ Suggests: testthat,
 Imports: ggplot2,MASS,devtools
 VignetteBuilder: knitr
 Depends: R(>= 2.10.0),
-    ggplot2,MASS,devtools
+    ggplot2,MASS,devtools,Delta
