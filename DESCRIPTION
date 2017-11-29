@@ -15,7 +15,7 @@ RoxygenNote: 6.0.1
 Suggests: testthat,
     knitr,
     rmarkdown
-Imports: ggplot2,MASS,devtools
+Imports: ggplot2,devtools
 VignetteBuilder: knitr
 Depends: R(>= 2.10.0),
-    ggplot2,MASS,devtools,Delta
+    ggplot2,devtools,Delta
