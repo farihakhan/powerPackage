@@ -4,14 +4,18 @@
 \alias{quadrtc}
 \title{Quadratic Formula}
 \usage{
-quadrtc(a, b, c, genplot = FALSE)
+quadrtc(a, b, c, qdplot = FALSE)
 }
 \arguments{
-\item{genplot}{Generates and prints a plot of \code{x}
+\item{a}{of \code{expression(ax^2 + bx + c )}}
+
+\item{b}{of \code{expression(ax^2 + bx + c )}}
+
+\item{c}{of \code{expression(ax^2 + bx + c )}
 \code{FALSE} by default.}
 }
 \value{
-The value(s) of x based on \code{x}
+The value(s) of x based on \code{a,b,c}
 }
 \description{
 Solves for x for a quadratic equation: \code{expression(ax^2 + bx + c )}

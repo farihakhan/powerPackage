@@ -3,3 +3,4 @@
 export(cube)
 export(reciprocal)
 export(square)
+export(quadrtc)
