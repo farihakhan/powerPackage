@@ -1,12 +1,11 @@
 ---
-output:
-  md_document:
-    variant: markdown_github
+output: github_document
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 ```{r, echo = FALSE}
+
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
@@ -15,13 +14,39 @@ knitr::opts_chunk$set(
 ```
 
 # powersPackage
+ __Note__ This package was created to serve as Homework 09 for STAT547.
+ 
+It's abilities are very novice, and serves as an educational tool.
+It contains the following functions:
 
-The goal of powersPackage is to ...
+## Installation
+
+You can install powers from github with:
+
+```{r gh-installation, eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("farihakhan/powerspackage")
+```
+
+## Load and run
+
+```{r}
+library(powersPackage)
+```
+
+`square(x, genplot=FALSE)`
+
+`cube(x, genplot=FALSE)`
+
+`reciprocal(x, genplot=FALSE)`
+
+`quadrtc(a,b,c)` 
 
 ## Example
 
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-## basic example code
+x <- negtenvec
+reciprocal(x)
 ```
