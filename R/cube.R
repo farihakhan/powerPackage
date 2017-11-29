@@ -3,11 +3,13 @@
 #' That's it -- this function just cubes a vector.
 #'
 #' @param x The vector to be cubed.
+#' @param genplot Generates and prints a plot of \code{x}
+#' \code{FALSE} by default.
 #'
-#' @return A vector that is the cube of \code{x}.
-#'
+#' @return
+#' A vector that is the cube of \code{x}.
 #' @details
-#' This function isn't complicated.
+#' Returns the cube of a number vector. AKA n^3, AKA (n * n * n)
 #'
 #' And it almost certainly doesn't need two paragraphs in the "Details"
 #' section!
@@ -23,4 +25,4 @@
 #' cube(-5)
 #' @rdname cube
 #' @export
-cube <- function(xE) pow(x, a=3)
+cube <- function(x, genplot=FALSE) pow(x, a=3, genplot=genplot)

@@ -5,12 +5,14 @@
 \alias{reciprocal}
 \title{Square a vector}
 \usage{
-square(x)
+square(x, genplot = FALSE)
 
-reciprocal(x)
+reciprocal(x, genplot = FALSE)
 }
 \arguments{
-\item{x}{The vector to be squared.
+\item{x}{The vector to be squared.}
+
+\item{genplot}{Generates and prints a plot of \code{x}
 \code{FALSE} by default.}
 }
 \value{

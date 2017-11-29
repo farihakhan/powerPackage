@@ -2,7 +2,7 @@ Package: powersPackage
 Type: Package
 Title: Computation of Powers
 Version: 0.1.0
-Author: person("Fariha", "Khan", email="fkhan@bccrc.ca",
+Authors@R: person("Fariha", "Khan", email="fkhan@bccrc.ca",
     role=c("aut", "cre"))
 Description: This package serves as Homework 09 for STAT547 Fall 2017.
     It is based on the powers package by Vincenzo Coia.
@@ -15,8 +15,7 @@ RoxygenNote: 6.0.1
 Suggests: testthat,
     knitr,
     rmarkdown
-Imports: ggplot2,
-      MASS,
-    devtools
+Imports: ggplot2,MASS,devtools
 VignetteBuilder: knitr
-Depends: R(>= 2.10.0)
+Depends: R(>= 2.10.0),
+    ggplot2,MASS,devtools

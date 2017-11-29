@@ -4,7 +4,9 @@
 #' reciprocal/inverse of a vector.
 #'
 #' @param x The vector to be squared.
+#' @param genplot Generates and prints a plot of \code{x}
 #' \code{FALSE} by default.
+#'
 #'
 #' @return
 #' A vector that is the:
@@ -23,8 +25,8 @@
 #' reciprocal(2)
 #' @rdname square
 #' @export
-square <- function(x) pow(x, a=2)
+square <- function(x, genplot=FALSE) pow(x, a=2, genplot=genplot)
 
 #' @rdname square
 #' @export
-reciprocal <- function(x) pow(x, a=-1)
+reciprocal <- function(x, genplot=FALSE) pow(x, a=-1, genplot=genplot)

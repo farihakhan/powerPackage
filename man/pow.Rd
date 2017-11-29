@@ -4,12 +4,14 @@
 \alias{pow}
 \title{Generic Power Function}
 \usage{
-pow(x, a = 2)
+pow(x, a = 2, genplot)
 }
 \arguments{
 \item{x}{Vector to raise to some power.}
 
 \item{a}{Power to raise \code{x} by.}
+
+\item{genplot}{Display a plot of \code{x} vs the output? Use logical}
 }
 \value{
 The vector \code{x}, raised to the power of \code{a}.
