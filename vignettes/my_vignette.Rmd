@@ -16,22 +16,55 @@ library(powersPackage)
 
 
 ## Description
+
 This vignette describes the 'powerPackage' package.
 It gives the output of an  integer vector raised to the power of two or three. it also is able to input numerical variables for quadratic problems.
 
+#
+`square`, `cube` and `reciprocal` returns the mathimatical evaluation of a numeric value or vector. 
+
+#
+`quadrtc` returns the root values of x when given the numeric values of a, b, and c
+
+#
 ## Usage
-`square(x)`
-`cube(x)`
-`reciprocal(x)`
 
-*Where x is a single integer of a vector*
+#
+`square(x, genplot = FALSE)`
 
-`quadrtc(a,b,c)` 
+#
+`cube(x, genplot = FALSE)`
 
-*Which solves for ax^2 + bx + c = 0*
+#
+`reciprocal(x, genplot = FALSE)`
+
+#
+`quadrtc(a,b,c)`
+
+
+## Arguments
+
+#
+ - `x` : 
+      - numberic value, or vector for which to evaluation the function on.
+
+#
+ - `genplot` :
+      - if `TRUE`, plot of evaluated results is generated. Default set to `FALSE`.
+  
+#  
+  - `a`,`b`,`c` :
+      - integers to be set for `(ax^2 + bx + c)`. Defaults set to 0.
+
+
 
 ## Examples
+
 ```{r square, echo=TRUE}
 square(tenvec, TRUE)
+reciprocal(negtenvec)
+reciprocal(cube(2))
+quadrtc(1,2,4)
+
 ```
 
