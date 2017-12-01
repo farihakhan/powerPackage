@@ -4,18 +4,17 @@
 \alias{quadrtc}
 \title{Quadratic Formula}
 \usage{
-quadrtc(a, b, c, qdplot = FALSE)
+quadrtc(a = 0, b = 0, c = 0)
 }
 \arguments{
 \item{a}{of \code{expression(ax^2 + bx + c )}}
 
 \item{b}{of \code{expression(ax^2 + bx + c )}}
 
-\item{c}{of \code{expression(ax^2 + bx + c )}
-\code{FALSE} by default.}
+\item{c}{of \code{expression(ax^2 + bx + c )}}
 }
 \value{
-The value(s) of x based on \code{a,b,c}
+The root value(s) of x based on \code{a,b,c}
 }
 \description{
 Solves for x for a quadratic equation: \code{expression(ax^2 + bx + c )}
