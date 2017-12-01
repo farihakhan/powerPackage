@@ -5,7 +5,9 @@ powersPackage
 
 **Note** This package was created to serve as Homework 09 for STAT547.
 
-It's abilities are very novice, and serves as an educational tool. It contains the following functions:
+It's abilities are very novice, and serves as an educational tool. It contains the following functions: `square()`,`cube()`,`reciprocal()`,`quadrtc()`.
+
+Package still in progress. So far you can find the cube, sqaure, or reciprocal of numbers, and the root x of a quadratic problem. Graphic functions for the quadratic function has yet to be added.
 
 Installation
 ------------
@@ -14,7 +16,7 @@ You can install powers from github with:
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("farihakhan/powerspackage")
+devtools::install_github("farihakhan/powersPackage")
 ```
 
 Load and run
@@ -22,9 +24,6 @@ Load and run
 
 ``` r
 library(powersPackage)
-#> Loading required package: ggplot2
-#> Loading required package: devtools
-#> Loading required package: Delta
 ```
 
 `square(x, genplot=FALSE)`

@@ -17,7 +17,10 @@ knitr::opts_chunk$set(
  __Note__ This package was created to serve as Homework 09 for STAT547.
  
 It's abilities are very novice, and serves as an educational tool.
-It contains the following functions:
+It contains the following functions: `square()`,`cube()`,`reciprocal()`,`quadrtc()`.
+
+#
+Package still in progress. So far you can find the cube, sqaure, or reciprocal of numbers, and the root x of a quadratic problem. Graphic functions for the quadratic function has yet to be added.
 
 ## Installation
 
@@ -25,7 +28,7 @@ You can install powers from github with:
 
 ```{r gh-installation, eval = FALSE}
 # install.packages("devtools")
-devtools::install_github("farihakhan/powerspackage")
+devtools::install_github("farihakhan/powersPackage")
 ```
 
 ## Load and run
